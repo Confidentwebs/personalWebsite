@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Overlay for the welcome message -->
+    <div id="overlay">
+        <h1>Welcome!</h1>
+    </div>
+    
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav">
+            <h1>Tech and I</h1>
+            <button id="theme-toggle">Change Theme 🌙</button>
+            <button id="scroll-to-top" aria-label="Scroll to Top">&#8593;</button>
+            <button id="scroll-to-bottom" aria-label="Scroll to Bottom">&#8595;</button>
+        </div>
+        <div class="dateandtime">
+            <p data-testid="currentTimeUTC">Current UTC Time:<br><span id="utc-time"></span></p>
+            <p data-testid="currentDay">Current Day:<br><span id="current-day"></span></p>
+        </div>
+    </nav>
+    
+    <!-- Hamburger menu button for mobile view -->
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    
+    <!-- Navigation links -->
+    <div class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">More About Me</a>
+        <a href="#goals">My Goals</a>
+        <a href="#footer">Helpful Links</a>
+    </div>
+    
+    <!-- Main content -->
+    <main>
+        <section id="home">
+            <img data-testid="slackProfilePicture" src="display.jpg" alt="Slack Profile Picture">
+            <p>
+                <span data-testid="slackDisplayName"><b>Slack Display Name:</b> Dev Confidence</span><br>
+                <span data-testid="slackEmail"><b>Slack Email:</b> davidconfidencechidiadi@gmail.com</span>
+            </p>
+        </section>
+        
+        <section id="about">
+            <p>
+                My name is David Confidence Chidiadi, and I hail from Nigeria. My tech journey began as a self-learner, driven by a strong dedication to acquiring knowledge. This dedication eventually led me to enroll in a remote tech school, where I continue to expand my skills and expertise.
+            </p>
+            <p>
+                I have a passion for learning new things every day within the tech space. I believe in the power of continuous learning to stay updated with industry trends and advancements. My goal is not only to advance my own skills but also to contribute positively and make a significant impact in my lifetime.
+            </p>
+        </section>
+        
+        <section id="goals">
+            <h2>My Tech Goals for the Next 2 Years</h2>
+            <div class="goals-content">
+                <p data-testid="goal-intro"><i>Here are my goals in the tech field for the next two years. Stay with me...</i></p>
+                <ul>
+                    <li data-testid="goal-1">
+                        <mark style="color: gold;"><h3>Launch a Free Learning Platform -</h3></mark>
+                        <p>
+                            Over the next two years, I am committed to developing and launching an innovative learning platform dedicated to aspirants in the tech field. This platform will be an all-encompassing resource, where users can access a variety of courses for free, covering every aspect of technology. The vision for this platform goes beyond mere course offerings; it will be a comprehensive ecosystem designed to support and nurture tech enthusiasts at every stage of their learning journey.
+                        </p>
+                        <p>
+                            This learning platform aims to prepare users with essential tech skills. Upon completion, they're directed to apply for their first internship at <a href="https://hng.tech/learn" data-testid="hngLink"><b>HNG</b></a>, fostering career readiness and aligning directly with HNG's internship opportunities.
+                        </p>
+                        <p>
+                            The platform will feature a carefully curated selection of recommended learning sources, ensuring that users have access to high-quality, reliable information. These sources will be tailored to suit different learning styles and preferences, providing both theoretical knowledge and practical skills. Additionally, the platform will include a wealth of supplementary materials, such as e-books, articles, and research papers, which will deepen users' understanding of various tech subjects.
+                        </p>
+                        <p>
+                            Mentorship will be a cornerstone of this platform. Users will have the opportunity to connect with experienced mentors who can provide guidance, support, and real-world insights. These mentors will come from diverse backgrounds, bringing a wealth of knowledge and experience to help learners navigate their career paths. The platform will also facilitate connections with peer groups and professional networks, fostering a sense of community and collaboration among users.
+                        </p>
+                        <p>
+                            Moreover, the platform will host forums and discussion boards where users can share their experiences, ask questions, and engage in meaningful conversations about their learning journey. This interactive element will not only enhance the learning experience but also build a supportive community of like-minded individuals. Users will be encouraged to participate in projects and challenges that apply their skills in practical scenarios, promoting active learning and hands-on experience.
+                        </p>
+                        <p>
+                            Ultimately, the goal is to create a vibrant and dynamic learning environment that empowers individuals to pursue their passions in technology. By providing free access to high-quality educational resources and fostering a community of learners and mentors, this platform aims to contribute significantly to the growth and development of the tech community. In the next two years, I envision this platform evolving into a fully functional website, a user-friendly web app, and a versatile mobile app, making it accessible to a global audience.
+                        </p>
+                    </li>
+                    <li data-testid="goal-2">
+                        <mark style="color: gold;"><h3>Network with Industry Professionals</h3></mark>
+                        <p>Connect with professional techies and attend tech conferences to gain insights, build relationships, and gather valuable feedback. These connections will be instrumental in refining and promoting the learning platform.</p>
+                    </li>
+                    <li data-testid="goal-3">
+                        <mark style="color: gold;"><h3>Build a Portfolio of Projects</h3></mark>
+                        <p>Create a diverse portfolio showcasing various projects that demonstrate my skills and progress. This portfolio will include the learning platform, personal projects, and contributions to open-source initiatives.</p>
+                    </li>
+                    <li data-testid="goal-4">
+                        <mark style="color: gold;"><h3>Contribute to Open-Source Projects</h3></mark>
+                        <p>Actively participate in open-source projects to gain practical experience and contribute to the tech community. This involvement will also help in learning best practices and collaborating with other developers.</p>
+                    </li>
+                    <li data-testid="goal-5">
+                        <mark style="color: gold;"><h3>Stay Updated with Tech Trends</h3></mark>
+                        <p>Continuously learn and stay informed about the latest trends and advancements in web development and the tech industry. This will involve following industry news, taking online courses, and experimenting with new technologies.</p>
+                    </li>
+                    <li data-testid="goal-6">
+                        <mark style="color: gold;"><h3>Expand the Learning Platform</h3></mark>
+                        <p>Ensure that the learning platform evolves into a fully functional website, web app, and mobile app. This expansion will make the platform accessible to a wider audience and enhance the learning experience.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer with links -->
+    <footer id="footer">
+        <div class="footer-links">
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+            <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </div>
+        <p>&copy; 2024 Confidence. All rights reserved.</p>
+    </footer>
+    
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
