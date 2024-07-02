@@ -252,19 +252,20 @@ body.dark-mode footer {
     .nav {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    nav h1{
+        padding-right: 10px;
+        font-size: 2rem;
     }
 
     .dateandtime {
-        position: relative;
+        position:static;
         top: auto;
         right: auto;
         width: auto;
-        padding: 10px;
-    }
-
-    nav h1 {
-        padding-left: 0;
-        font-size: 2em;
     }
 
     #theme-toggle {
