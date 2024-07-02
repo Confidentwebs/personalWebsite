@@ -158,10 +158,10 @@ section h2 {
 }
 
 section img {
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    border-radius: 50%;
+    width: 100%;
+}
+.img{
+    width: 200px;
 }
 
 .goals-content ul li h3 {
