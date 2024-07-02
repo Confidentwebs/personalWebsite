@@ -250,7 +250,8 @@ body.dark-mode footer {
     }
 
     .nav {
-        flex: none;
+        display: flex;
+        flex-direction: column;
     }
 
     .dateandtime {
