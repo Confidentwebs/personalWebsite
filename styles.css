@@ -261,11 +261,10 @@ body.dark-mode footer {
     }
 
     .dateandtime {
-        position: relative;
+        position: static;
         top: auto;
         right: auto;
         width: auto;
-        padding: 10px;
     }
 
     #theme-toggle {
